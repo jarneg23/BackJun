@@ -53,4 +53,14 @@ class Deck
 		System.out.println(deck.get(deck.size()-1));	
 		}
 	}
+	void reverse()
+	{
+		for(int i=0;i<deck.size()-1;i++)
+		{
+			int temp = (int)deck.get(0);
+			deck.remove(0);
+			deck.add(deck.size()-i, temp);
+			
+		}
+	}
 }
