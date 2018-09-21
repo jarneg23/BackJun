@@ -11,12 +11,11 @@ class priorityQueue {
 			u = a;
 			v = b;
 		}
-		
-		
 		//오름차순으로 정렬
+		// target을
 		// return 1 = 앞쪽에 삽입
-		// return -1 = 뒤쪽에 삽
-	
+		// return -1 = 뒷쪽에 삽입 
+
 		 @Override
 		    public int compareTo(pair target) {
 		        if (this.u > target.u) {
